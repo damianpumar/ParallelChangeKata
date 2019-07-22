@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCart {
-    private int price;
     private final List<Integer> prices;
 
     public ShoppingCart() {
@@ -12,8 +11,6 @@ public class ShoppingCart {
     }
 
     public void add(int price) {
-        this.price = price;
-
         this.prices.add(price);
     }
 
